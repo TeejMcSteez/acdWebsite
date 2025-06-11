@@ -1,0 +1,13 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v175)
+"   C:/Users/tjhal/OneDrive/Desktop/lexiWebsite/lexi/app/components
+"   Sorted by      name
+"   Sort sequence: [\/]$,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+Contact.tsx
+Gallery.tsx
+Hero.tsx
+Navbar.tsx

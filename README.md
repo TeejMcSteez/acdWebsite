@@ -11,6 +11,8 @@ All main content will be on the main page however.
 4. Implement Contact page at the bottom
 5. Implement footer
 
+Ask client about color palletes and dark/light styles! This cannot be bland has to be a photography website.
+
 ### Navigation styles
 
 Need to decide whether I want a full dropdown menu for desktop or deal with mobile responsive styling. Most of her client will probably be on mobile but still have to consider the alternative.
