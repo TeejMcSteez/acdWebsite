@@ -1,6 +1,6 @@
 export default function Contact() {
 	return(
-		<div id="contact" className="flex flex-col items-center justify-center rounded-2xl m-4 border border-yellow-400">
+		<div id="contact" className="flex flex-col items-center justify-center rounded-2xl m-4 border border-[#ffd700]">
 				<div className="flex items-center justify-center rounded">
 					<h1 className="flex items-center justify-center text-xl p-2">
 						Contact by Phone:

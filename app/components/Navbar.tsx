@@ -1,6 +1,6 @@
 export default function Navbar() {
 	return(
-		<div className="flex justify-between border border-b-yellow-400 dark:border-t-black dark:border-l-black dark:border-r-black">
+		<div className="flex justify-between border border-b-[#ffd700] dark:border-t-black dark:border-l-black dark:border-r-black">
 			<h1 className="text-2xl items-center justify-center m-2 p-2">
 				ACD Photography
 			</h1>
