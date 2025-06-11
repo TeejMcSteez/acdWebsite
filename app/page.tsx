@@ -1,3 +1,13 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Contact from './components/Contact'
+
 export default function Home() {
-	return <h1 className="flex items-center justify-center">Hello World</h1>;
+	return (
+		<>
+			<Navbar/>
+			<Hero/>
+			<Contact/>
+		</>
+	);
 }

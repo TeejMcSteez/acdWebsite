@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Overview
 
-## Getting Started
+This website will be a scrolling website no seperate pages unless it's a blog or something.
 
-First, run the development server:
+All main content will be on the main page however.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## TODO - Frontend
+1. Navigation styles
+2. Hero section styles
+3. Implement proper image section
+4. Implement Contact page at the bottom
+5. Implement footer
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Navigation styles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Need to decide whether I want a full dropdown menu for desktop or deal with mobile responsive styling. Most of her client will probably be on mobile but still have to consider the alternative.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Will have name of the website as well as navigation to different parts of the website
 
-## Learn More
+### Hero Section Styles
 
-To learn more about Next.js, take a look at the following resources:
+TBD - Hero sections are hard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Image Section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Images will more than likely be displayed via carousel with maybe shadcn or my own homebaked version or some fancy React Bits thing.
 
-## Deploy on Vercel
+### Contact Section
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Need to make look better will be simple with only phone number and instagram but still need to make look good.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Footer Section
+
+Mainly state other info needed and my website for a shoutout
+
+## TODO - Backend
+
+Nothing yet as this will be a purely informational website currently, no scheduling or anything fancy is needed just yet.
+
