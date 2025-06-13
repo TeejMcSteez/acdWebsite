@@ -1,4 +1,5 @@
 import Carousel from './Carousel';
+import Splash from './Splash'
 import path from 'path';
 import fs from 'fs';
 
@@ -10,7 +11,7 @@ export default function Gallery() {
 
 	return(
 		<div className="p-10">
-			<Carousel images={imageFiles} pathPrefix="/gallery" />
+			<Splash imgFiles={imageFiles} pathPrefix="/gallery"/>
 		</div>
 	);
 }

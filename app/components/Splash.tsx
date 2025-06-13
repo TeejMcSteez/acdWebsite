@@ -12,9 +12,15 @@ export default function Splash({imgFiles, pathPrefix = ''}: SplashProps) {
 	const imgs = imgFiles.length;
 
 	return(	
-		<div>
+		<div className="grid grid-cols-2 md:grid-cols-3">
 			{ imgFiles.map((img, index) => (
-				<Image key={index} src={`{pathPrefix}/{img}`} alt={img} fill className="object-cover" priority/>
+			
+				<div className="flex p-1 m-1">
+				
+					<Image key={index} src={`${pathPrefix}/${img}`} alt={img} height={300} width={300} objectFit="contain" priority className=""/>
+
+				</div>
+
 			))}
 		</div>
 	);
