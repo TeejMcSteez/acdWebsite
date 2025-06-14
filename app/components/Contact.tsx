@@ -7,7 +7,7 @@ export default function Contact() {
 					<h1 className="flex items-center justify-center p-2">
 						<Image src="/phone.svg" alt={"Phone SVG"} height={30} width={30} priority />:
 					</h1>
-					<h2 className="flex items-center justify-center bold text-xl">
+					<h2 className="flex items-center justify-center bold text-2xl bold">
 						(704) 691-4023
 					</h2>
 				</div>

@@ -8,7 +8,7 @@ export default function Home() {
 		<div className="flex flex-col min-w-screen min-h-screen bg-[url(/bg.jpg)] bg-no-repeat bg-cover bg-origin-border text-black">
 			<Navbar/>	
 			<Gallery/>
-			<Hero/>
+			{/* Currently client does not want about me section */}
 			<Contact/>
 		</div>
 	);

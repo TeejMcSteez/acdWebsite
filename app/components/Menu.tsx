@@ -30,7 +30,7 @@ export default function Menu() {
         `}
         style={{ transitionDuration: '300ms' }}
       >
-        {['about', 'contact'].map(item => (
+        {['contact'].map(item => (
           <li key={item}>
             <a href={`#${item.toLowerCase()}`}
                className="block px-4 py-2 hover:bg-gray-100"
