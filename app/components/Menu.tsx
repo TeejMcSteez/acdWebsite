@@ -14,7 +14,7 @@ export default function Menu() {
         className="p-2 focus:outline-none"
       >
         {/* Hamburger icon: three bars */}
-        <div className="space-y-1">
+        <div className="space-y-1 hover:invert-80">
           <span className={`block w-6 h-0.5 transition-transform ${open ? 'rotate-45 translate-y-1' : ''} bg-gray-800`} />
           <span className={`block w-6 h-0.5 transition-opacity ${open ? 'opacity-0' : 'opacity-100'} bg-gray-800`} />
           <span className={`block w-6 h-0.5 transition-transform ${open ? '-rotate-45 -translate-y-1' : ''} bg-gray-800`} />
