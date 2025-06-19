@@ -11,7 +11,7 @@ export default function Gallery() {
 
 	return(
 		<div className="p-10">
-			<h1 className="flex text-2xl bold items-center justify-center m-2 p-2">Gallery</h1>
+			<h1 className="flex text-2xl bold items-center justify-center m-2 p-2">Welcome, check out my work!</h1>
 			<Splash imgFiles={imageFiles} pathPrefix="/gallery"/>
 		</div>
 	);

@@ -5,7 +5,7 @@ import Gallery from './components/Gallery'
 
 export default function Home() {
 	return (
-		<div className="flex flex-col min-w-screen min-h-screen bg-[url(/bg.jpg)] bg-no-repeat bg-cover bg-origin-border text-black">
+		<div className="flex flex-col min-w-screen min-h-screen bg-stone-300 bg-no-repeat bg-cover bg-origin-border text-black">
 			<Navbar/>	
 			<Gallery/>
 			{/* Currently client does not want about me section */}

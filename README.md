@@ -11,6 +11,7 @@ All main content will be on the main page however.
 4. Implement Contact page at the bottom
 5. Implement footer
 6. Space Splash Section properly and remove objectFit as its deprecated 
+7 Change font to Times New Roman or Playfair Display
 
 Ask client about color palletes and dark/light styles! This cannot be bland has to be a photography website.
 
