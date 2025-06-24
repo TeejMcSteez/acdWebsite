@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function Menu() {
 	const [open, setOpen] = useState(false);
 	return (
-    <nav className="relative">
+    <nav className="relative m-2 p-2">
       {/* Toggle Button */}
       <button
         onClick={() => setOpen(o => !o)}
@@ -15,9 +15,9 @@ export default function Menu() {
       >
         {/* Hamburger icon: three bars */}
         <div className="space-y-1 hover:invert-80">
-          <span className={`block w-6 h-0.5 transition-transform ${open ? 'rotate-45 translate-y-1' : ''} bg-gray-800`} />
+          <span className={`block w-6 h-0.5 transition-transform ${open ? 'rotate-45 translate-y-[5px]' : ''} bg-gray-800`} />
           <span className={`block w-6 h-0.5 transition-opacity ${open ? 'opacity-0' : 'opacity-100'} bg-gray-800`} />
-          <span className={`block w-6 h-0.5 transition-transform ${open ? '-rotate-45 -translate-y-1' : ''} bg-gray-800`} />
+          <span className={`block w-6 h-0.5 transition-transform ${open ? '-rotate-45 -translate-y-[6px]' : ''} bg-gray-800`} />
         </div>
       </button>
 
